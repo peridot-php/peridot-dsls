@@ -1,0 +1,22 @@
+{
+    "name": "peridot-php/peridot-dsls",
+    "description": "Testing langauges for Peridot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Scaturro",
+            "email": "scaturrob@gmail.com"
+        }
+    ],
+    "require": {
+        "peridot-php/peridot-core":"2.0.*@dev"
+    },
+    "autoload": {
+        "files": ["src/describe.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master" "2.0.x-dev"
+        }
+    }
+}
