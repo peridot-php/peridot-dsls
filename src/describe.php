@@ -7,7 +7,7 @@ use Peridot\Core\Context;
  * @param string $description
  * @param callable $fn
  */
-function describe($description, callable $fn)
+function describe($description, callable $fn = null)
 {
     Context::getInstance()->addSuite($description, $fn);
 }
